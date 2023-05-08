@@ -58,3 +58,2975 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1683436636.3859
     'REQUEST_TIME' => 1683436636
 ]
+2023-05-08 05:27:35 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilihkrs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilihkrs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:27:34 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60240'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilihkrs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilihkrs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilihkrs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'REQUEST_TIME_FLOAT' => 1683523654.3947
+    'REQUEST_TIME' => 1683523654
+]
+2023-05-08 05:27:44 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\laragon\www\prak-web-60200121102\views\krs-mahasiswa\pilih krs.php in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragon\\www\\...', Array, Object(app\controllers\KrsMahasiswaController))
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('pilih krs', Array, Object(app\controllers\KrsMahasiswaController))
+#2 C:\laragon\www\prak-web-60200121102\controllers\KrsMahasiswaController.php(29): yii\base\Controller->render('pilih krs')
+#3 [internal function]: app\controllers\KrsMahasiswaController->actionPilihKrs()
+#4 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#7 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#8 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2023-05-08 05:27:44 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60251'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683523664.4713
+    'REQUEST_TIME' => 1683523664
+]
+2023-05-08 05:30:55 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\laragon\www\prak-web-60200121102\views\krs-mahasiswa\pilih_krs.php in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragon\\www\\...', Array, Object(app\controllers\KrsMahasiswaController))
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('pilih_krs', Array, Object(app\controllers\KrsMahasiswaController))
+#2 C:\laragon\www\prak-web-60200121102\controllers\KrsMahasiswaController.php(29): yii\base\Controller->render('pilih_krs')
+#3 [internal function]: app\controllers\KrsMahasiswaController->actionPilihKrs()
+#4 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#7 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#8 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2023-05-08 05:30:55 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60334'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683523855.2364
+    'REQUEST_TIME' => 1683523855
+]
+2023-05-08 05:32:25 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilihkrs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilihkrs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:32:25 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60401'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilihkrs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilihkrs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilihkrs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683523945.3231
+    'REQUEST_TIME' => 1683523945
+]
+2023-05-08 05:32:31 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\laragon\www\prak-web-60200121102\views\krs-mahasiswa\pilih_krs.php in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragon\\www\\...', Array, Object(app\controllers\KrsMahasiswaController))
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('pilih_krs', Array, Object(app\controllers\KrsMahasiswaController))
+#2 C:\laragon\www\prak-web-60200121102\controllers\KrsMahasiswaController.php(29): yii\base\Controller->render('pilih_krs')
+#3 [internal function]: app\controllers\KrsMahasiswaController->actionPilihKrs()
+#4 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#7 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#8 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2023-05-08 05:32:31 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60408'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683523951.4799
+    'REQUEST_TIME' => 1683523951
+]
+2023-05-08 05:32:45 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih_krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih_krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:32:45 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60412'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih_krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih_krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih_krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683523965.6845
+    'REQUEST_TIME' => 1683523965
+]
+2023-05-08 05:39:22 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih_krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih_krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:39:22 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60431'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih_krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih_krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih_krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524362.3268
+    'REQUEST_TIME' => 1683524362
+]
+2023-05-08 05:39:27 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:39:27 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60439'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_SEC_PURPOSE' => 'prefetch;prerender'
+    'HTTP_PURPOSE' => 'prefetch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524367.772
+    'REQUEST_TIME' => 1683524367
+]
+2023-05-08 05:39:28 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:39:28 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60440'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524368.6567
+    'REQUEST_TIME' => 1683524368
+]
+2023-05-08 05:40:32 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:40:32 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60455'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_SEC_PURPOSE' => 'prefetch;prerender'
+    'HTTP_PURPOSE' => 'prefetch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524432.3854
+    'REQUEST_TIME' => 1683524432
+]
+2023-05-08 05:40:33 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:40:33 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60457'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524433.3953
+    'REQUEST_TIME' => 1683524433
+]
+2023-05-08 05:40:37 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:40:37 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60463'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524437.6982
+    'REQUEST_TIME' => 1683524437
+]
+2023-05-08 05:40:38 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:40:37 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60464'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524437.9139
+    'REQUEST_TIME' => 1683524437
+]
+2023-05-08 05:40:38 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:40:38 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60465'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524438.1112
+    'REQUEST_TIME' => 1683524438
+]
+2023-05-08 05:40:38 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:40:38 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60466'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524438.3215
+    'REQUEST_TIME' => 1683524438
+]
+2023-05-08 05:41:00 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:41:00 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60479'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524460.1508
+    'REQUEST_TIME' => 1683524460
+]
+2023-05-08 05:41:02 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:41:02 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60488'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524462.4229
+    'REQUEST_TIME' => 1683524462
+]
+2023-05-08 05:41:02 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:41:02 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60489'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524462.6447
+    'REQUEST_TIME' => 1683524462
+]
+2023-05-08 05:41:02 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:41:02 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60490'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524462.8387
+    'REQUEST_TIME' => 1683524462
+]
+2023-05-08 05:41:03 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:41:03 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60491'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524463.0391
+    'REQUEST_TIME' => 1683524463
+]
+2023-05-08 05:42:05 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:42:05 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60501'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524525.7154
+    'REQUEST_TIME' => 1683524525
+]
+2023-05-08 05:42:07 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:42:07 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60509'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524527.1334
+    'REQUEST_TIME' => 1683524527
+]
+2023-05-08 05:42:07 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:42:07 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60510'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524527.4094
+    'REQUEST_TIME' => 1683524527
+]
+2023-05-08 05:42:07 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:42:07 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60516'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524527.621
+    'REQUEST_TIME' => 1683524527
+]
+2023-05-08 05:42:08 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:42:08 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60518'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524528.0501
+    'REQUEST_TIME' => 1683524528
+]
+2023-05-08 05:42:56 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:42:56 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60541'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_SEC_PURPOSE' => 'prefetch;prerender'
+    'HTTP_PURPOSE' => 'prefetch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524576.2874
+    'REQUEST_TIME' => 1683524576
+]
+2023-05-08 05:42:56 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:42:56 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60542'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524576.7883
+    'REQUEST_TIME' => 1683524576
+]
+2023-05-08 05:43:11 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][ParseError] ParseError: syntax error, unexpected token "-", expecting "(" in C:\laragon\www\prak-web-60200121102\controllers\KrsMahasiswaController.php:27
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(661): class_exists('app\\controllers...')
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID('krs-mahasiswa')
+#3 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController('pilih-krs')
+#4 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#5 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-05-08 05:43:10 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60551'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524590.9565
+    'REQUEST_TIME' => 1683524590
+]
+2023-05-08 05:45:43 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:45:43 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60555'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524743.1603
+    'REQUEST_TIME' => 1683524743
+]
+2023-05-08 05:45:44 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:45:43 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60563'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524743.9925
+    'REQUEST_TIME' => 1683524743
+]
+2023-05-08 05:45:44 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:45:44 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60569'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524744.2865
+    'REQUEST_TIME' => 1683524744
+]
+2023-05-08 05:45:44 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:45:44 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60576'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524744.7514
+    'REQUEST_TIME' => 1683524744
+]
+2023-05-08 05:48:41 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:48:41 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60588'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524921.1665
+    'REQUEST_TIME' => 1683524921
+]
+2023-05-08 05:48:42 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:48:42 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60596'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524922.1058
+    'REQUEST_TIME' => 1683524922
+]
+2023-05-08 05:48:42 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:48:42 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60602'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524922.3833
+    'REQUEST_TIME' => 1683524922
+]
+2023-05-08 05:48:42 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:48:42 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60604'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683524922.7802
+    'REQUEST_TIME' => 1683524922
+]
+2023-05-08 05:50:06 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][ParseError] ParseError: syntax error, unexpected token "-", expecting "(" in C:\laragon\www\prak-web-60200121102\controllers\KrsMahasiswaController.php:27
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(661): class_exists('app\\controllers...')
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID('krs-mahasiswa')
+#3 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController('pilihkrs')
+#4 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#5 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-05-08 05:50:06 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60621'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilihkrs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilihkrs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilihkrs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683525006.4388
+    'REQUEST_TIME' => 1683525006
+]
+2023-05-08 05:53:42 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:53:42 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60743'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_SEC_PURPOSE' => 'prefetch;prerender'
+    'HTTP_PURPOSE' => 'prefetch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683525222.6683
+    'REQUEST_TIME' => 1683525222
+]
+2023-05-08 05:53:43 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:53:43 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60744'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683525223.1546
+    'REQUEST_TIME' => 1683525223
+]
+2023-05-08 05:53:54 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][ParseError] ParseError: syntax error, unexpected token "-", expecting "(" in C:\laragon\www\prak-web-60200121102\controllers\KrsMahasiswaController.php:27
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(661): class_exists('app\\controllers...')
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID('krs-mahasiswa')
+#3 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController('pilih-krs')
+#4 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#5 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-05-08 05:53:54 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60753'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683525234.6745
+    'REQUEST_TIME' => 1683525234
+]
+2023-05-08 05:56:25 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:56:25 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60801'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683525385.0916
+    'REQUEST_TIME' => 1683525385
+]
+2023-05-08 05:56:25 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:56:25 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60802'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683525385.41
+    'REQUEST_TIME' => 1683525385
+]
+2023-05-08 05:56:26 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:56:26 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60810'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683525386.2674
+    'REQUEST_TIME' => 1683525386
+]
+2023-05-08 05:56:26 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:56:26 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60816'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683525386.5444
+    'REQUEST_TIME' => 1683525386
+]
+2023-05-08 05:56:27 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:56:27 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60823'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683525387.0138
+    'REQUEST_TIME' => 1683525387
+]
+2023-05-08 05:56:27 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:56:27 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60824'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683525387.2644
+    'REQUEST_TIME' => 1683525387
+]
+2023-05-08 05:56:27 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: krs-mahasiswa/pilih-krs in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#2 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-08 05:56:27 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60826'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683525387.6814
+    'REQUEST_TIME' => 1683525387
+]
+2023-05-08 06:00:33 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\laragon\www\prak-web-60200121102\views\krs-mahasiswa\pilih-krs.php in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragon\\www\\...', Array, Object(app\controllers\KrsMahasiswaController))
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('pilih-krs', Array, Object(app\controllers\KrsMahasiswaController))
+#2 C:\laragon\www\prak-web-60200121102\controllers\KrsMahasiswaController.php(29): yii\base\Controller->render('pilih-krs')
+#3 [internal function]: app\controllers\KrsMahasiswaController->actionPilihKrs()
+#4 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#7 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#8 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2023-05-08 06:00:33 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60923'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_SEC_PURPOSE' => 'prefetch;prerender'
+    'HTTP_PURPOSE' => 'prefetch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683525633.3607
+    'REQUEST_TIME' => 1683525633
+]
+2023-05-08 06:00:35 [::1][-][ekarog4ibtqmgqac852h3fsrt8][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\laragon\www\prak-web-60200121102\views\krs-mahasiswa\pilih-krs.php in C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragon\\www\\...', Array, Object(app\controllers\KrsMahasiswaController))
+#1 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('pilih-krs', Array, Object(app\controllers\KrsMahasiswaController))
+#2 C:\laragon\www\prak-web-60200121102\controllers\KrsMahasiswaController.php(29): yii\base\Controller->render('pilih-krs')
+#3 [internal function]: app\controllers\KrsMahasiswaController->actionPilihKrs()
+#4 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('pilih-krs', Array)
+#7 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('krs-mahasiswa/p...', Array)
+#8 C:\laragon\www\prak-web-60200121102\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\laragon\www\prak-web-60200121102\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2023-05-08 06:00:35 [::1][-][ekarog4ibtqmgqac852h3fsrt8][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ekarog4ibtqmgqac852h3fsrt8'
+    '_csrf' => 'b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121102\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60924'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/krs-mahasiswa/pilih-krs'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121102\\web\\index.php'
+    'PATH_INFO' => '/krs-mahasiswa/pilih-krs'
+    'PHP_SELF' => '/index.php/krs-mahasiswa/pilih-krs'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ekarog4ibtqmgqac852h3fsrt8; _csrf=b3c5050c00f94bf0ee61ad08b170ef599595d1436dc62c2cf638a8969b10215ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z5iR2Cdx5fJWkuksrtcLG65qRGpcrdZi%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683525635.6205
+    'REQUEST_TIME' => 1683525635
+]

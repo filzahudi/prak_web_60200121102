@@ -24,4 +24,9 @@ class KrsMahasiswaController extends \yii\web\Controller
         return $this->render('delete');
     }
 
+    public function actionPilihKrs()
+    {
+        return $this->render('pilih_krs');
+    }
+
 }
